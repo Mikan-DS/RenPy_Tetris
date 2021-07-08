@@ -1,0 +1,5 @@
+*.rpyc
+*.rar
+*.py
+*__building__**
+*.bak
