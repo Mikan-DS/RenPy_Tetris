@@ -505,7 +505,7 @@ init python in tetris:
                 if not current_tetrino: # If current tetrino does not exist - create it!
 
                     tetrino = next_tetrino or random_tetrino() # Takes from next_tetrino or create new
-                    tetrino.pos = move(tetrino.pos, ((self.width/2-2, -3))) # update pos on initial position
+                    tetrino.pos = move(tetrino.pos, ((int(self.width/2-2), -3))) # update pos on initial position
                     new_tetrino() # Update next_tetrino variable
 
 
